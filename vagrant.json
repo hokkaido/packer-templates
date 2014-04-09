@@ -9,7 +9,7 @@
     "type": "virtualbox-iso",
     "guest_os_type": "Ubuntu_64",
     "guest_additions_path": "VBoxGuestAdditions_{{.Version}}.iso",
-
+    "virtualbox_version_file": ".vbox_version",
     "vboxmanage": [
        ["modifyvm", "{{.Name}}", "--vram", "32"]
     ],
