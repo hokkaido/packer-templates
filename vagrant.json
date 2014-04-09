@@ -46,7 +46,8 @@
     "scripts": [
       "scripts/base.sh",
       "scripts/vagrant.sh",
-      "scripts/sshd.sh"
+      "scripts/sshd.sh",
+      "scripts/virtualbox.sh"
     ]
   }],
   "post-processors": [{
