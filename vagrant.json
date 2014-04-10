@@ -3,7 +3,7 @@
     "ssh_name": "vagrant",
     "ssh_pass": "vagrant",
     "hostname": "vagrant",
-		"box_name": "vagrant-trusty.box"
+		"box_name": "trusty64.box"
   },
   "builders": [{
     "type": "virtualbox-iso",
@@ -47,6 +47,7 @@
       "scripts/base.sh",
       "scripts/vagrant.sh",
       "scripts/sshd.sh",
+      "scripts/puppet.sh",
       "scripts/virtualbox.sh"
     ]
   }],
