@@ -16,8 +16,8 @@
 
     "disk_size" : 10000,
 
-    "iso_url": "http://releases.ubuntu.com/14.04/ubuntu-14.04-beta2-server-amd64.iso",
-    "iso_checksum": "435d1e7d8425ec7332ceaeb0d7f04664",
+    "iso_url": "http://releases.ubuntu.com/14.04/ubuntu-14.04-server-amd64.iso",
+    "iso_checksum": "01545fa976c8367b4f0d59169ac4866c",
     "iso_checksum_type": "md5",
 
     "http_directory" : "http",
@@ -47,7 +47,7 @@
       "scripts/base.sh",
       "scripts/vagrant.sh",
       "scripts/sshd.sh",
-      "scripts/puppet.sh",
+      "scripts/puppet_trusty.sh",
       "scripts/virtualbox.sh"
     ]
   }],
