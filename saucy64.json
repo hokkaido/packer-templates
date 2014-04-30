@@ -47,7 +47,7 @@
       "scripts/base.sh",
       "scripts/vagrant.sh",
       "scripts/sshd.sh",
-      "scripts/puppet_saucy64.sh",
+      "scripts/puppet_saucy.sh",
       "scripts/virtualbox.sh"
     ]
   }],
